@@ -1,0 +1,96 @@
+*{
+          padding: 0;
+          margin: 0;
+}
+.con{
+          margin: 20px;
+          height: 500px;
+          width: 400px;
+          background:linear-gradient(135deg,#0acf94,#5b548a);
+          margin-top: 200px;
+          border: 1px solid transparent;
+          border-radius: 1.75rem;
+          box-shadow: 16px 16px 16px gray;
+}
+body{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color:#e4e7eb;
+          font-family: cursive;
+          
+}
+.search{
+          height: 48px;
+          width: 48px;
+          background-color: aliceblue;
+          display: flex;
+          justify-content: center;
+          border: 1px solid transparent;
+          border-radius: 50%;
+}
+.search i{
+          margin-top: 15px;
+          font-size: 20px;
+}
+.head{
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          margin-top: 20px;
+}
+.head input{
+          border: none;
+          height: 2rem;
+          width: 250px;
+          border: 2px solid lightgrey;
+          border-radius: 1.79rem;
+          font-size: 20px;
+          outline: none;
+          text-align: center;
+          background-color: lightgray;
+}
+.weather{
+        justify-content: center;
+        align-items: center;
+        margin-left: 130px;
+        margin-top: 30px;
+      
+}
+.weather i{
+          font-size: 40px;
+          color: aliceblue;
+
+}
+.temp{
+ margin-top: 30px;
+ font-size: 40px;
+}
+.city{
+          margin-top: 10px;
+          font-size: 40px;
+        
+}
+.details{
+          display: flex;
+          justify-content:space-evenly;
+          align-items: center;
+          margin-top: 90px;
+          padding:  10px;
+}
+.humidity{
+          display: flex;
+          align-items: center;
+          text-align: left;
+}
+.wind{
+          display: flex;
+          align-items: center;
+          text-align: right;
+}
+.weather{
+          display: none;
+}
+.details{
+          display: none;
+}
